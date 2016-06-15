@@ -1,0 +1,35 @@
+$contentfontsize: 110%;
+
+
+h2{
+	font-weight: bold;
+	font-size: 25px;
+	color: #333;
+}
+h3 {
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 15px;
+}
+.centered{ text-align: center; margin: 0px auto;}
+#content { 
+	font-size: $contentfontsize;
+	padding: 10px 5px;
+ }
+
+.placeholder{
+	background-color: #dddddd;
+	padding: 5px;
+	border: 2px solid black;
+}
+
+div.detail{
+	font-size: 75%;
+	margin: 10px 20px;
+	padding: 10px;
+	background-color: #fafafa;	
+}
+
+.bold {
+	font-weight: bold;
+}

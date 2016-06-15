@@ -1,20 +1,39 @@
-header.site-header{
-	background-color: $li;
-	
-	#topnav{
-		line-height: 56px;
-		background-color: $li;
-		font-size: 120%;
-		
-		.nitem{
-			margin: 0px 15px;
-			>a{
-        			color: white;
-        		}
-    		}
-	}
-}
+$navfontsize: 20px;
 
-.navbar{
-    
+header#site-header{
+	width: 100%;
+
+	#top-banner{
+		text-align: center;
+		font-weight: bold;
+		color: #333;
+		font-size: 35px;
+		padding: 20px;	
+		
+	}
+	
+	.navtainer{
+		border-bottom: 1px solid black;
+		border-top: 1px solid black;
+		color: white;
+		background-color: $li;
+		.wrapper{
+			
+			nav#top-nav{
+				
+				display: flex;
+				justify-content: space-between;
+				
+				.nitem{
+					border-right: 1px solid white;
+					&:nth-child(1){ border-left: 1px solid white; }
+					width: 25%;
+					font-size: $navfontsize;
+					padding: 7px 0px;
+					text-align: center;
+				}
+			}
+		}
+	}
+
 }
