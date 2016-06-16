@@ -426,6 +426,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 25px;
+  text-decoration: underline;
   color: #333; }
 
 h3 {
@@ -449,8 +450,11 @@ h3 {
 div.detail {
   font-size: 75%;
   margin: 10px 20px;
-  padding: 10px;
-  background-color: #fafafa; }
+  padding: 5px 20px;
+  background-color: #fffc9b; }
+  div.detail h1, div.detail h2, div.detail h3 {
+    color: #333;
+    font-size: 120%; }
 
 .bold {
   font-weight: bold; }
